@@ -10,7 +10,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "YaBoiZ" && password === "Password") {
         
-        window.location.href = "../index.html";
+        window.location.href = "biopage/index.html";
     } else {
         loginErrorMsg.style.opacity = 1;
     }
